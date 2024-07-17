@@ -1,0 +1,162 @@
+body {
+    height: 100vh;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ color: #f9faf8;
+ background-color: #1F2937;
+}
+
+.left h1{
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.header,
+.left p{
+    color: #e5e7eb;
+font-size: 18px;
+}
+.header div{
+    font-size: 24px;
+}
+
+button{
+    color: #e5e7eb;
+background-color: #3882f6;
+border: none;
+border-radius: 18%;
+font-size: larger;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border: black solid;
+    border-radius: 20%;
+}
+
+
+a{
+ text-decoration-line: none;
+ color: white;    
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+.header div {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+
+.upper{
+    display: flex;
+    flex: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right,
+.left{
+    flex: 1 1 50%;
+    padding-bottom:56px;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex:1;
+}
+.center{
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1
+}
+.center h1{
+    font-size: 36px;
+    font-weight: bolder;
+}
+.pict{
+    gap:24px;
+    display:flex;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex:1;
+}
+.info p{
+    font-size: large;
+    font-weight: 500;
+
+}
+.down,
+.down-cen{
+    background-color: #e5e7eb;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+}
+.down{
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    flex: 1 1;
+}
+.down div {
+    padding:50px;
+    border-radius: 25px;
+    background-color: #3882f6;;
+}
+.author, .quote{
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;}
+
+.author{
+    margin-top: 100px;
+
+}
+
+    .I{
+        width: 200px;
+        height: 200px;
+    }
